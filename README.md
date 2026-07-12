@@ -8,7 +8,7 @@ This study utilizes the MIMIC-IV dataset. Due to **PhysioNet data credentialing 
 *   **In this Repository (Sample Data)**: We set `n_splits=5` in the provided example script. Because this dummy dataset is small, a higher fold count would lead to empty splits or highly unstable stratification during cross-validation.
 *   **In the Paper (Formal Evaluation)**: For the full dataset and the official results reported in the paper, **`n_splits=10` (10-fold cross-validation)** was used to provide a more rigorous evaluation.
 
-## Data Schema  : one row is one admission
+## Data Schema  : 
     'subject_id',   # Unique patient identifier (Static across all longitudinal admissions)
     'hadm_id',      # Unique encounter/admission identifier for the index hospitalization
     'icd3_list',    # List of 3-digit ICD diagnosis codes recorded during the index admission(ex.["E11","N18","I25"...])
@@ -17,7 +17,8 @@ This study utilizes the MIMIC-IV dataset. Due to **PhysioNet data credentialing 
     'los',          # Length of stay for the current hospitalization (Measured in days)
     'age',          # Patient age at the time of the index admission (Baseline chronological age)
     'gender'        # Patient biological sex at birth (Demographic baseline factor)
-
+*   **Granularity**: Each row represents a single **admission-level** record (i.e., one row is one admission).
+*   **Structure**: If a patient has multiple admissions over time, they will appear across multiple rows sharing the same patient identifier (`id1` / `subject_id`), ordered chronologically for longitudinal analysis.
 
 ## Pipeline
 To ensure the reproducibility of our computational methodology, this repository contains the complete pipeline including
