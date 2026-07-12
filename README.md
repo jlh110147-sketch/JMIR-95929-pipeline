@@ -9,11 +9,11 @@ This study uses MIMIC-IV.
 Visit-level data are not included due to PhysioNet restrictions.
 
 ## Pipeline
-Preprocessing
-Node2Vec Embedding
-Feature Engineering
-XGBoost Training
-Evaluation
+1. Preprocessing
+2. Node2Vec Embedding
+3. Feature Engineering
+4. XGBoost Training
+5. Evaluation
 
 ## Requirements
 Python 3.8.18
