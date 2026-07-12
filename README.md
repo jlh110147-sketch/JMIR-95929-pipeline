@@ -11,9 +11,8 @@ Visit-level data are not included due to PhysioNet restrictions.
 ## Pipeline
 1. Preprocessing
 2. Node2Vec Embedding
-3. Feature Engineering
-4. XGBoost Training
-5. Evaluation
+3. XGBoost Training
+4. Evaluation
 
 ## Requirements
 Python 3.8.18
