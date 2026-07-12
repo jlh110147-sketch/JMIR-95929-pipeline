@@ -1,6 +1,4 @@
 # JMIR-95929-pipelines (HF--XGBoost)
-A Risk-Aware Pseudotime Approach for Modeling Heart Failure Progression: A Geometric Analysis of Longitudinal Electronic Health Record Data
-
 Source code for:
 
 "A Risk-Aware Pseudotime Approach for Modeling Heart Failure Progression: A Geometric Analysis of Longitudinal Electronic Health Record Data"
