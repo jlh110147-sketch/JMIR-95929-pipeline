@@ -6,7 +6,7 @@ Source code for:
 ## Data
 This study uses MIMIC-IV.
 
-Visit-level data are not included due to PhysioNet restrictions.
+Admission-level data are not included due to PhysioNet restrictions.
 
 
 ## Data Schema  : one row is one admission
