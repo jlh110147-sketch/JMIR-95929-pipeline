@@ -1,7 +1,7 @@
 # JMIR-95929-pipelines (HF--XGBoost)
 Source code for:
 
-"A Disease Trajectory Representation Framework with Risk-Aware Pseudotime Analysis for Longitudinal Electronic Health Records: Application to Heart Failure Risk Stratification"
+"A Disease Trajectory Representation Framework with Risk-Aware Pseudotime Analysis for Electronic Health Records: Application to Heart Failure Risk Stratification"
 
 ## Data
 This study utilizes the MIMIC-IV dataset. Due to **PhysioNet data credentialing and privacy restrictions**, individual admission-level clinical data cannot be publically hosted or redistributed within this repository.
