@@ -7,7 +7,7 @@ Source code for:
 This study utilizes the MIMIC-IV dataset. Due to **PhysioNet data credentialing and privacy restrictions**, individual admission-level clinical data cannot be publically hosted or redistributed within this repository.
 *   **In this Repository (Sample Data)**: We set `n_splits=5` in the provided example script. Because this dummy dataset is small, a higher fold count would lead to empty splits or highly unstable stratification during cross-validation.
 *   **In the Paper (Formal Evaluation)**: For the full dataset and the official results reported in the paper, **`n_splits=10` (10-fold cross-validation)** was used to provide a more rigorous evaluation.
-*   **Note: The provided GitHub-sample_data.csv is a minimal synthetic dataset designed solely to verify that the pipeline runs without execution errors. Because of the small sample size, the calculated performance metrics (e.g., ROC AUC) on this dummy data may be uninformative or heavily skewed.
+*   **Note: The provided sample_data.csv is a minimal synthetic dataset designed solely to verify that the pipeline runs without execution errors. Because of the small sample size, the calculated performance metrics (e.g., ROC AUC) on this dummy data may be uninformative or heavily skewed.
 
 ## Data Schema  : 
     'subject_id',   # Unique patient identifier (Static across all longitudinal admissions)
