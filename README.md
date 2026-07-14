@@ -25,8 +25,9 @@ This study utilizes the MIMIC-IV dataset. Due to **PhysioNet data credentialing 
 To ensure the reproducibility of our computational methodology, this repository contains the complete pipeline including
 1. Preprocessing
 2. Node2Vec Embedding
-3. XGBoost Training
-4. Evaluation
+3. Information Gain
+4. XGBoost Training
+5. Evaluation
 
 
 ## Requirements
