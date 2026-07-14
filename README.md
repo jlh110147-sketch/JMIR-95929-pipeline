@@ -1,4 +1,4 @@
-# JMIR-95929-pipelines (HF--XGBoost)
+# JMIR-95929-pipelines (mIGwDG)
 Source code for:
 
 "A Disease Trajectory Representation Framework with Risk-Aware Pseudotime Analysis for Electronic Health Records: Application to Heart Failure Risk Stratification"
